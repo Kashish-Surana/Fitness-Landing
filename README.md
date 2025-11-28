@@ -7,7 +7,7 @@ A modern, responsive landing page for a fitness app, built using **Next.js**, **
 
 ## Screenshot
 
-![Fitness Landing Screenshot](./assets/screenshot.png)
+![Fitness Landing Screenshot](assets/screenshot.png)
 
 
 ## **Live Demo**
