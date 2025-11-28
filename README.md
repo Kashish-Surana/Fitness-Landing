@@ -1,36 +1,83 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Fitness Landing Page
 
-## Getting Started
+A modern, responsive landing page for a fitness app, built using **Next.js**, **Tailwind CSS**, and **Shadcn UI**. This project showcases a clean, minimalist SaaS-style design for a fitness platform with features, testimonials, pricing plans, and a hero section.
 
-First, run the development server:
+---
+##Screenshot
 
+<img src="public/screenshot.png" alt="Hero Section" width="600"/>
+
+## **Live Demo**
+https://vercel.com/kashish-suranas-projects/fitness-landing
+
+---
+
+## **Features**
+
+- **Hero Section:** Engaging hero with call-to-action buttons, statistics, and a gym image.  
+- **Features Section:** Highlights key app features with icons.  
+- **Testimonials Section:** Real transformations with user quotes and ratings.  
+- **Pricing Section:** Multiple plans with feature lists and CTA buttons.  
+- **Responsive Design:** Fully mobile-friendly and optimized for all screen sizes.  
+- **Custom Color Scheme:** Unified blue/purple palette across all components.  
+
+---
+
+## **Tech Stack**
+
+- **Next.js 16** – React framework for server-side rendering and static site generation  
+- **Tailwind CSS** – Utility-first CSS framework for rapid styling  
+- **Shadcn UI** – Prebuilt UI components  
+- **Lucide React** – Icons library  
+- **Vercel** – Deployment platform  
+
+---
+
+## **Project Structure**
+
+fitness-landing/
+├─ app/
+│ ├─ page.tsx
+│ └─ globals.css
+├─ components/
+│ ├─ Hero.jsx
+│ ├─ Features.jsx
+│ ├─ Testimonials.jsx
+│ ├─ Pricing.jsx
+│ └─ Footer.jsx
+├─ public/
+│ └─ img.png
+├─ package.json
+└─ README.md
+
+---
+
+## **Setup Instructions**
+
+1. Clone the repository:  
 ```bash
+git clone https://github.com/Kashish-Surana/fitness-landing.git
+cd fitness-landing
+
+2.Install dependencies:
+
+npm install
+
+3.Run development server:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4.Build for production:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+npm run build
+npm run start
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Notes on Vercel Deployment
 
-## Learn More
+The project is designed to be deployed on Vercel using Next.js.
 
-To learn more about Next.js, take a look at the following resources:
+All static assets (images, CSS) are in the public/ folder.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Shadcn UI components are used for buttons and layout elements.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Tailwind configuration is customized for a unified blue/purple color palette.
