@@ -3,9 +3,6 @@
 A modern, responsive landing page for a fitness app, built using **Next.js**, **Tailwind CSS**, and **Shadcn UI**. This project showcases a clean, minimalist SaaS-style design for a fitness platform with features, testimonials, pricing plans, and a hero section.
 
 ---
-## Screenshot
-
-![Fitness Landing Screenshot](/screenshot.png)
 
 ## **Live Demo**
 https://vercel.com/kashish-suranas-projects/fitness-landing
