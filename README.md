@@ -5,7 +5,7 @@ A modern, responsive landing page for a fitness app, built using **Next.js**, **
 ---
 ## Screenshot
 
-![Fitness Landing Screenshot](/screenshot.png)
+![Fitness Landing Screenshot](/Screenshot.png)
 
 ## **Live Demo**
 https://vercel.com/kashish-suranas-projects/fitness-landing
